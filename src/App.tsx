@@ -9,7 +9,9 @@ import CurrentWeekPage from './pages/CurrentWeekPage';
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <div style={{ marginBottom: 40 }}>
+        <Navbar />
+      </div>
       <Switch>
         <Route path='/week/:week' component={WeekPage}></Route>
         <Route path='/weeks' component={WeeksPage}></Route>
