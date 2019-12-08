@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, HashRouter } from 'react-router-dom';
 import WeekPage from './pages/WeekPage';
 import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar';
@@ -8,7 +8,7 @@ import CurrentWeekPage from './pages/CurrentWeekPage';
 
 function App() {
   return (
-    <BrowserRouter basename={'mealplanner'}>
+    <HashRouter>
       <div style={{ marginBottom: 40 }}>
         <Navbar />
       </div>
@@ -18,7 +18,7 @@ function App() {
         <Route path='/current-week' component={CurrentWeekPage}></Route>
         <Route path='/*' component={HomePage}></Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
