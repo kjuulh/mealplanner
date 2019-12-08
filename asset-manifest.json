@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/mealplanner/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/mealplanner/static/js/main.2ea52163.chunk.js",
-    "main.js.map": "/mealplanner/static/js/main.2ea52163.chunk.js.map",
+    "main.js": "/mealplanner/static/js/main.ef292e7e.chunk.js",
+    "main.js.map": "/mealplanner/static/js/main.ef292e7e.chunk.js.map",
     "runtime-main.js": "/mealplanner/static/js/runtime-main.b0e2048f.js",
     "runtime-main.js.map": "/mealplanner/static/js/runtime-main.b0e2048f.js.map",
-    "static/js/2.7eaf40b1.chunk.js": "/mealplanner/static/js/2.7eaf40b1.chunk.js",
-    "static/js/2.7eaf40b1.chunk.js.map": "/mealplanner/static/js/2.7eaf40b1.chunk.js.map",
+    "static/js/2.0f8bdb09.chunk.js": "/mealplanner/static/js/2.0f8bdb09.chunk.js",
+    "static/js/2.0f8bdb09.chunk.js.map": "/mealplanner/static/js/2.0f8bdb09.chunk.js.map",
     "index.html": "/mealplanner/index.html",
-    "precache-manifest.18245183c4c036ac14a5a1f280306d90.js": "/mealplanner/precache-manifest.18245183c4c036ac14a5a1f280306d90.js",
+    "precache-manifest.c862d705ded741b57390cc154a509aba.js": "/mealplanner/precache-manifest.c862d705ded741b57390cc154a509aba.js",
     "service-worker.js": "/mealplanner/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/mealplanner/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.7eaf40b1.chunk.js.LICENSE": "/mealplanner/static/js/2.7eaf40b1.chunk.js.LICENSE"
+    "static/js/2.0f8bdb09.chunk.js.LICENSE": "/mealplanner/static/js/2.0f8bdb09.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.b0e2048f.js",
-    "static/js/2.7eaf40b1.chunk.js",
+    "static/js/2.0f8bdb09.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2ea52163.chunk.js"
+    "static/js/main.ef292e7e.chunk.js"
   ]
 }

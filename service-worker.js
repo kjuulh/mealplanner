@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mealplanner/precache-manifest.18245183c4c036ac14a5a1f280306d90.js"
+  "/mealplanner/precache-manifest.c862d705ded741b57390cc154a509aba.js"
 );
 
 self.addEventListener('message', (event) => {
