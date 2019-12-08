@@ -8,7 +8,7 @@ import CurrentWeekPage from './pages/CurrentWeekPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'mealplanner'}>
       <div style={{ marginBottom: 40 }}>
         <Navbar />
       </div>
