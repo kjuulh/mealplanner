@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mealplanner/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/mealplanner/static/js/main.055621ea.chunk.js",
-    "main.js.map": "/mealplanner/static/js/main.055621ea.chunk.js.map",
+    "main.js": "/mealplanner/static/js/main.9710547f.chunk.js",
+    "main.js.map": "/mealplanner/static/js/main.9710547f.chunk.js.map",
     "runtime-main.js": "/mealplanner/static/js/runtime-main.b0e2048f.js",
     "runtime-main.js.map": "/mealplanner/static/js/runtime-main.b0e2048f.js.map",
     "static/js/2.7eaf40b1.chunk.js": "/mealplanner/static/js/2.7eaf40b1.chunk.js",
     "static/js/2.7eaf40b1.chunk.js.map": "/mealplanner/static/js/2.7eaf40b1.chunk.js.map",
     "index.html": "/mealplanner/index.html",
-    "precache-manifest.4fa0131b14a3823befd99bcdb9f4b81c.js": "/mealplanner/precache-manifest.4fa0131b14a3823befd99bcdb9f4b81c.js",
+    "precache-manifest.582d80723cc793a837f37b21b520f035.js": "/mealplanner/precache-manifest.582d80723cc793a837f37b21b520f035.js",
     "service-worker.js": "/mealplanner/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/mealplanner/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.7eaf40b1.chunk.js.LICENSE": "/mealplanner/static/js/2.7eaf40b1.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b0e2048f.js",
     "static/js/2.7eaf40b1.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.055621ea.chunk.js"
+    "static/js/main.9710547f.chunk.js"
   ]
 }
