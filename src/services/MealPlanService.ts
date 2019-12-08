@@ -26,17 +26,22 @@ export class MealPlanService {
       week: 50,
       plans: [
         {
-          day: Days.Monday,
-          meal: 'Frikadeller',
-        },
-        {
-          day: Days.Wednesday,
+          day: Days.Tuesday,
           meal: 'Tomatsuppe',
         },
+        this.generate(Days.Wednesday, 'Undecided'),
+        this.generate(Days.Thursday, 'Hjemmelavet burger'),
       ],
     });
 
     return plans.find((plan) => plan.week === week);
+  }
+
+  private generate(day: Days, meal: string): DayPlan {
+    return {
+      day,
+      meal,
+    };
   }
 }
 
