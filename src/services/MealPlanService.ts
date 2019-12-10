@@ -29,7 +29,7 @@ export class MealPlanService {
           day: Days.Tuesday,
           meal: 'Tomatsuppe',
         },
-        this.generate(Days.Wednesday, 'Undecided'),
+        this.generate(Days.Wednesday, 'Stegte nudler'),
         this.generate(Days.Thursday, 'Hjemmelavet burger'),
       ],
     });
