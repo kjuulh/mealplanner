@@ -34,6 +34,17 @@ export class MealPlanService {
       ],
     });
 
+    plans.push({
+      week: 51,
+      plans: [
+  this.generate(Days.Monday, 'Mørbrad')
+  this.generate(Days.Tuesday, 'Købe Pizza')
+  this.generate(Days.Wednesday, 'Hamburgerryg/Skinke med flødekartofler')
+  this.generate(Days.Thursday, 'Forslag modtages gerne')
+      ],
+    });
+
+
     return plans.find((plan) => plan.week === week);
   }
 
