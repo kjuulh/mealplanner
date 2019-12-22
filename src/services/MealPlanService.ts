@@ -44,7 +44,12 @@ export class MealPlanService {
       ],
     });
 
-    return plans.find((plan) => plan.week === week);
+    plans.push({
+      week: 52,
+      plans: [this.generate(Days.Monday, 'Pita med kylling og oksekød')],
+    });
+
+    return plans.find(plan => plan.week === week);
   }
 
   private generate(day: Days, meal: string): DayPlan {
