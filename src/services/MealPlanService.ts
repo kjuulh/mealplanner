@@ -45,6 +45,11 @@ export class MealPlanService {
     });
 
     plans.push({
+      week: 52,
+      plans: [this.generate(Days.Monday, 'Pita med kylling og oksekød')],
+    });
+
+    plans.push({
       week: 1,
       plans: [
         this.generate(
