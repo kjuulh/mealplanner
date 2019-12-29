@@ -54,7 +54,7 @@ export class MealPlanService {
       plans: [
         this.generate(
           Days.Monday,
-          'Ovenstegte grønsager med ris og pandesteg laks',
+          'Ovenstegte grønsager med ris og pandestegt laks',
         ),
       ],
     });
