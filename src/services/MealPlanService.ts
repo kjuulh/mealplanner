@@ -44,6 +44,16 @@ export class MealPlanService {
       ],
     });
 
+    plans.push({
+      week: 1,
+      plans: [
+        this.generate(
+          Days.Monday,
+          'Ovenstegte grønsager med ris og pandesteg laks',
+        ),
+      ],
+    });
+
     return plans.find((plan) => plan.week === week);
   }
 
