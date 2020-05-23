@@ -25,7 +25,9 @@
               "apps/angular-kanban/src/favicon.ico",
               "apps/angular-kanban/src/assets"
             ],
-            "styles": ["apps/angular-kanban/src/styles.scss"],
+            "styles": [
+              "apps/angular-kanban/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -83,7 +85,10 @@
               "apps/angular-kanban/tsconfig.app.json",
               "apps/angular-kanban/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/angular-kanban/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/angular-kanban/**"
+            ]
           }
         },
         "test": {
@@ -94,6 +99,10 @@
             "passWithNoTests": true,
             "setupFile": "apps/angular-kanban/src/test-setup.ts"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     },
@@ -118,8 +127,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/angular-kanban-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/angular-kanban-e2e/**"]
+            "tsConfig": [
+              "apps/angular-kanban-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/angular-kanban-e2e/**"
+            ]
           }
         }
       }

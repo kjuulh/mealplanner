@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-firebase-kjuulh": {
+      "hosting": {
+        "angular-kanban": [
+          "angular-firebase-kjuulh"
+        ]
+      }
+    }
+  }
+}
