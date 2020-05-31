@@ -25,9 +25,7 @@
               "apps/angular-kanban/src/favicon.ico",
               "apps/angular-kanban/src/assets"
             ],
-            "styles": [
-              "apps/angular-kanban/src/styles.scss"
-            ],
+            "styles": ["apps/angular-kanban/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -85,10 +83,7 @@
               "apps/angular-kanban/tsconfig.app.json",
               "apps/angular-kanban/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**",
-              "!apps/angular-kanban/**"
-            ]
+            "exclude": ["**/node_modules/**", "!apps/angular-kanban/**"]
           }
         },
         "test": {
@@ -127,13 +122,63 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
+            "tsConfig": ["apps/angular-kanban-e2e/tsconfig.e2e.json"],
+            "exclude": ["**/node_modules/**", "!apps/angular-kanban-e2e/**"]
+          }
+        }
+      }
+    },
+    "editor": {
+      "root": "apps/editor",
+      "sourceRoot": "apps/editor/src",
+      "projectType": "application",
+      "prefix": "editor",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@nrwl/node:build",
+          "options": {
+            "outputPath": "dist/apps/editor",
+            "main": "apps/editor/src/main.ts",
+            "tsConfig": "apps/editor/tsconfig.app.json",
+            "assets": ["apps/editor/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/editor/src/environments/environment.ts",
+                  "with": "apps/editor/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@nrwl/node:execute",
+          "options": {
+            "buildTarget": "editor:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
             "tsConfig": [
-              "apps/angular-kanban-e2e/tsconfig.e2e.json"
+              "apps/editor/tsconfig.app.json",
+              "apps/editor/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**",
-              "!apps/angular-kanban-e2e/**"
-            ]
+            "exclude": ["**/node_modules/**", "!apps/editor/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "apps/editor/jest.config.js",
+            "tsConfig": "apps/editor/tsconfig.spec.json",
+            "passWithNoTests": true
           }
         }
       }

@@ -25,6 +25,9 @@
     "angular-kanban-e2e": {
       "tags": [],
       "implicitDependencies": ["angular-kanban"]
+    },
+    "editor": {
+      "tags": []
     }
   }
 }
